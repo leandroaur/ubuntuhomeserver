@@ -14,4 +14,4 @@ echo "first port $first_port, step $step, last port $last_port"
     echo firewall-cmd --zone=public --add-port=$i/tcp --permanent
     echo "port $i added";
   done
-    echo firewall-cmd --reload
+    echo firewall-cmd --reload#
